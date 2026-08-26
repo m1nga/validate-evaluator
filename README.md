@@ -33,7 +33,7 @@ Needs Python with `numpy` and `scikit-learn`; optionally `judgy` (`pip install j
 
 ## Works well with
 
-- [`write-judge-prompt`](https://github.com/m1nga/write-judge-prompt) — builds the judge this skill calibrates. Together they form a loop: construct → validate → fix disagreements → re-validate → trust (conditionally, with a CI).
+- [`write-judge-prompt`](https://github.com/m1nga/write-judge-prompt/) — builds the judge this skill calibrates. Together they form a loop: construct → validate → fix disagreements → re-validate → trust (conditionally, with a CI).
 
 ## Design notes
 
@@ -53,7 +53,7 @@ Probed 7 scenarios across 5 personas (including a second-engine run under a non-
 
 > **"Can I trust these scores before they go in the weekly report?"** → fired: 15/45/40 stratified splits, dev-set iteration, one-shot test measurement, Rogan-Gladen correction with a bootstrap confidence interval attached.
 
-Probe method: [scenario-probe](https://github.com/m1nga/scenario-probe)
+Probe method: [scenario-probe](https://github.com/m1nga/scenario-probe/)
 
 ## Author
 
