@@ -1,4 +1,4 @@
 interface:
-  display_name: "Validate Evaluator"
-  short_description: "Calibrate an LLM judge against human labels (TPR/TNR + bias correction)"
+  display_name: "LLM Judge Validator"
+  short_description: "Measure whether LLM judge scores match human labels"
   default_prompt: "Use $validate-evaluator to check whether my LLM judge agrees with my human labels before I trust its scores."

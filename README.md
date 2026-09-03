@@ -1,4 +1,4 @@
-# Validate an LLM Judge Against Human Labels
+# LLM Judge Validator — Measure Whether AI Scores Match Human Labels
 
 Measures whether your LLM judge actually agrees with human labels — TPR/TNR on proper data splits, plus a bias-corrected success rate with a confidence interval.
 
